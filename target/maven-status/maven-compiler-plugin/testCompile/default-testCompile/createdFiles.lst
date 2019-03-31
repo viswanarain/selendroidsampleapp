@@ -1,0 +1,12 @@
+setup/Base.class
+locators/TouchActionPageElements.class
+modules/WebPageModule.class
+locators/WebPageElements.class
+modules/TouchActionModule.class
+pageobjects/TouchActionPage.class
+pageobjects/WebViewPage.class
+pageobjects/HomePage.class
+tests/sampleTest.class
+locators/HomePageElements.class
+utils/CommonUtils.class
+modules/HomePageModule.class

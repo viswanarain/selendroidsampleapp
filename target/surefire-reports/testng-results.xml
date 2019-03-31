@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34293" started-at="2019-03-31T13:36:43Z" finished-at="2019-03-31T13:37:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34293" started-at="2019-03-31T13:36:43Z" finished-at="2019-03-31T13:37:17Z">
+      <class name="tests.sampleTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.sampleTest@1f28c152]" name="setup" is-config="true" duration-ms="17777" started-at="2019-03-31T13:36:25Z" finished-at="2019-03-31T13:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="webViewTest()[pri:1, instance:tests.sampleTest@1f28c152]" name="webViewTest" duration-ms="9888" started-at="2019-03-31T13:36:43Z" finished-at="2019-03-31T13:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webViewTest -->
+        <test-method status="PASS" signature="clickSourceTest()[pri:2, instance:tests.sampleTest@1f28c152]" name="clickSourceTest" duration-ms="14654" started-at="2019-03-31T13:36:52Z" finished-at="2019-03-31T13:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSourceTest -->
+        <test-method status="PASS" signature="textValidateTest()[pri:3, instance:tests.sampleTest@1f28c152]" name="textValidateTest" duration-ms="1661" started-at="2019-03-31T13:37:07Z" finished-at="2019-03-31T13:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textValidateTest -->
+        <test-method status="PASS" signature="touchactionValidateTest()[pri:4, instance:tests.sampleTest@1f28c152]" name="touchactionValidateTest" duration-ms="8069" started-at="2019-03-31T13:37:09Z" finished-at="2019-03-31T13:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- touchactionValidateTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.sampleTest@1f28c152]" name="teardown" is-config="true" duration-ms="103" started-at="2019-03-31T13:37:22Z" finished-at="2019-03-31T13:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.sampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
