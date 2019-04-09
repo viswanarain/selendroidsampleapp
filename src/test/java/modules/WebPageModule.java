@@ -41,8 +41,9 @@ public class WebPageModule extends Base {
 
 		}
 		log.info(carName + " is selected");
-
-		web.send_button(driver).click();
+		
+		Thread.sleep(2000);
+		web.send_button(driver).get(1).click();
 
 		/* Extracting the name and car value from the header */
 		int index = web.webviewheader(driver).getText().indexOf("name");

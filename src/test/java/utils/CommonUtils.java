@@ -31,6 +31,7 @@ public class CommonUtils extends Base {
 	 public static DateFormat dateFormat;
 	 public static String scrPath;
 	 private static WebElement element = null;
+	// WebDriverWait wait = new WebDriverWait(driver,20);
 
 	 /*
 	  * Method to take screenshot

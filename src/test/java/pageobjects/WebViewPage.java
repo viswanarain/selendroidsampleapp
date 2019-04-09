@@ -17,7 +17,7 @@ public interface WebViewPage {
 
 	public List<WebElement> selectCar(AppiumDriver driver) throws Exception;
 
-	public WebElement send_button(AppiumDriver driver) throws Exception;
+	public List<WebElement> send_button(AppiumDriver driver) throws Exception;
 
 	public WebElement webviewheader(AppiumDriver driver) throws Exception;
 

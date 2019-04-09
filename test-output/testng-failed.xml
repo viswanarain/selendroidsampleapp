@@ -6,7 +6,13 @@
       <class name="tests.sampleTest">
         <methods>
           <include name="setup"/>
+          <include name="getResult"/>
+          <include name="textValidateTest"/>
+          <include name="webViewTest"/>
+          <include name="setUp"/>
           <include name="teardown"/>
+          <include name="touchactionValidateTest"/>
+          <include name="tearDown"/>
           <include name="clickSourceTest"/>
         </methods>
       </class> <!-- tests.sampleTest -->

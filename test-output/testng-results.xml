@@ -2,35 +2,87 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34420" started-at="2019-03-31T13:08:03Z" finished-at="2019-03-31T13:08:37Z">
+  <suite name="Default suite" duration-ms="68006" started-at="2019-04-08T09:27:33Z" finished-at="2019-04-08T09:28:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34420" started-at="2019-03-31T13:08:03Z" finished-at="2019-03-31T13:08:37Z">
+    <test name="Default test" duration-ms="68006" started-at="2019-04-08T09:27:33Z" finished-at="2019-04-08T09:28:41Z">
       <class name="tests.sampleTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.sampleTest@fad74ee]" name="setup" is-config="true" duration-ms="11879" started-at="2019-03-31T13:07:51Z" finished-at="2019-03-31T13:08:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.sampleTest@4abdb505]" name="setUp" is-config="true" duration-ms="148" started-at="2019-04-08T09:26:48Z" finished-at="2019-04-08T09:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.sampleTest@4abdb505]" name="setup" is-config="true" duration-ms="44877" started-at="2019-04-08T09:26:48Z" depends-on-methods="utils.TestReports.setUp" finished-at="2019-04-08T09:27:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="webViewTest()[pri:1, instance:tests.sampleTest@fad74ee]" name="webViewTest" duration-ms="9439" started-at="2019-03-31T13:08:03Z" finished-at="2019-03-31T13:08:13Z">
+        <test-method status="PASS" signature="webViewTest()[pri:1, instance:tests.sampleTest@4abdb505]" name="webViewTest" duration-ms="37610" started-at="2019-04-08T09:27:33Z" finished-at="2019-04-08T09:28:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webViewTest -->
-        <test-method status="PASS" signature="clickSourceTest()[pri:2, instance:tests.sampleTest@fad74ee]" name="clickSourceTest" duration-ms="14512" started-at="2019-03-31T13:08:13Z" finished-at="2019-03-31T13:08:27Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.sampleTest@4abdb505]" name="getResult" is-config="true" duration-ms="7" started-at="2019-04-08T09:28:10Z" finished-at="2019-04-08T09:28:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=webViewTest status=SUCCESS method=sampleTest.webViewTest()[pri:1, instance:tests.sampleTest@4abdb505] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="clickSourceTest()[pri:2, instance:tests.sampleTest@4abdb505]" name="clickSourceTest" duration-ms="17318" started-at="2019-04-08T09:28:10Z" finished-at="2019-04-08T09:28:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSourceTest -->
-        <test-method status="PASS" signature="textValidateTest()[pri:3, instance:tests.sampleTest@fad74ee]" name="textValidateTest" duration-ms="2075" started-at="2019-03-31T13:08:27Z" finished-at="2019-03-31T13:08:29Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.sampleTest@4abdb505]" name="getResult" is-config="true" duration-ms="0" started-at="2019-04-08T09:28:28Z" finished-at="2019-04-08T09:28:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSourceTest status=SUCCESS method=sampleTest.clickSourceTest()[pri:2, instance:tests.sampleTest@4abdb505] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="textValidateTest()[pri:3, instance:tests.sampleTest@4abdb505]" name="textValidateTest" duration-ms="2787" started-at="2019-04-08T09:28:28Z" finished-at="2019-04-08T09:28:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textValidateTest -->
-        <test-method status="PASS" signature="touchactionValidateTest()[pri:4, instance:tests.sampleTest@fad74ee]" name="touchactionValidateTest" duration-ms="8368" started-at="2019-03-31T13:08:29Z" finished-at="2019-03-31T13:08:37Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.sampleTest@4abdb505]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-08T09:28:30Z" finished-at="2019-04-08T09:28:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=textValidateTest status=SUCCESS method=sampleTest.textValidateTest()[pri:3, instance:tests.sampleTest@4abdb505] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="touchactionValidateTest()[pri:4, instance:tests.sampleTest@4abdb505]" name="touchactionValidateTest" duration-ms="10259" started-at="2019-04-08T09:28:30Z" finished-at="2019-04-08T09:28:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- touchactionValidateTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.sampleTest@fad74ee]" name="teardown" is-config="true" duration-ms="126" started-at="2019-03-31T13:08:43Z" finished-at="2019-03-31T13:08:43Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.sampleTest@4abdb505]" name="getResult" is-config="true" duration-ms="1" started-at="2019-04-08T09:28:41Z" finished-at="2019-04-08T09:28:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=touchactionValidateTest status=SUCCESS method=sampleTest.touchactionValidateTest()[pri:4, instance:tests.sampleTest@4abdb505] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.sampleTest@4abdb505]" name="teardown" is-config="true" duration-ms="5049" started-at="2019-04-08T09:28:46Z" finished-at="2019-04-08T09:28:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.sampleTest@4abdb505]" name="tearDown" is-config="true" duration-ms="262" started-at="2019-04-08T09:28:51Z" depends-on-methods="setup.Base.teardown" finished-at="2019-04-08T09:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- tests.sampleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

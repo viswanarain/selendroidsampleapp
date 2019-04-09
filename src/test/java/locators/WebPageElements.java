@@ -31,9 +31,9 @@ public class WebPageElements implements WebViewPage {
 		return CommonUtils.findElements(driver, By.className("android.widget.CheckedTextView"), "car selection list");
 	}
 
-	public WebElement send_button(AppiumDriver driver) throws Exception {
+	public List<WebElement> send_button(AppiumDriver driver) throws Exception {
 		// TODO Auto-generated method stub
-		return CommonUtils.findElement(driver, By.xpath("//android.widget.Button[@content-desc='Send me your name!']"),
+		return CommonUtils.findElements(driver, By.className("android.widget.Button"),
 				"submit button");
 	}
 
@@ -57,7 +57,7 @@ public class WebPageElements implements WebViewPage {
 
 	public WebElement targetLink(AppiumDriver driver) throws Exception {
 		// TODO Auto-generated method stub
-		return CommonUtils.findElement(driver, By.xpath("//android.view.View[@content-desc='I go to a target']"),
+		return CommonUtils.findElement(driver, By.xpath("//android.view.View[@text='I go to a target']"),
 				"Target link");
 	}
 
