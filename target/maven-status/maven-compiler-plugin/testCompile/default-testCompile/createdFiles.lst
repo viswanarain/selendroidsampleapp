@@ -1,5 +1,6 @@
 setup/Base.class
 locators/TouchActionPageElements.class
+utils/TestReports.class
 modules/WebPageModule.class
 locators/WebPageElements.class
 modules/TouchActionModule.class
@@ -10,3 +11,4 @@ tests/sampleTest.class
 locators/HomePageElements.class
 utils/CommonUtils.class
 modules/HomePageModule.class
+utils/Listeners.class

@@ -9,6 +9,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -29,11 +30,11 @@ public class Base extends TestReports{
 	DesiredCapabilities cap = new DesiredCapabilities();
 	FileInputStream fis;
 	public final static Logger log = Logger.getLogger(Base.class);
-
+	
 	@BeforeSuite
 	public AppiumDriver setup() throws Exception {
 
-		
+			PropertyConfigurator.configure(System.getProperty("user.dir") + "//src//test//java//utils//log4j.properties");
 			log.info("Suite started");
 		
 
