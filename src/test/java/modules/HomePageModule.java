@@ -19,8 +19,11 @@ public class HomePageModule extends Base {
 	CommonUtils util = new CommonUtils();
 
 	public void chromeButtonClick() throws Exception {
-		hm.chromeButton(driver).click();
-		log.info("chrome button click is successful");
+		
+		WebElement element = hm.chromeButton(driver);
+		
+			hm.chromeButton(driver).click();
+			log.info("chrome button click is successful");
 	}
 
 	public void validateTextBox() throws Exception {

@@ -16,6 +16,7 @@ import org.testng.annotations.BeforeSuite;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import utils.CommonUtils;
 import utils.TestReports;
 
 /*
@@ -31,9 +32,15 @@ public class Base extends TestReports{
 	FileInputStream fis;
 	public final static Logger log = Logger.getLogger(Base.class);
 	
+	
 	@BeforeSuite
 	public AppiumDriver setup() throws Exception {
 
+			log.info("Launching Appium server programatically");
+			
+			CommonUtils.appiumServiceInvocation("start");
+			
+			
 			PropertyConfigurator.configure(System.getProperty("user.dir") + "//src//test//java//utils//log4j.properties");
 			log.info("Suite started");
 		
@@ -43,7 +50,7 @@ public class Base extends TestReports{
 
 			DesiredCapabilities cap = new DesiredCapabilities();
 			
-			if(prop.getProperty("runmode").equals("local"))
+			if(prop.getProperty("runmode").equalsIgnoreCase("local"))
 			{
 			cap.setCapability("automationName", "UiAutomator2");
 			cap.setCapability("platformName", "Android");
@@ -62,7 +69,7 @@ public class Base extends TestReports{
 			}
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
-		else
+		else   // sauce labs setup
 		{
 			cap.setCapability("platformName", "Android");
 			cap.setCapability("platformVersion", "6.0");
@@ -90,6 +97,7 @@ public class Base extends TestReports{
 	@AfterSuite
 	public void teardown() {
 		driver.quit();
+		CommonUtils.appiumServiceInvocation("stop");
 		log.info("Suite completed");
 	}
 }

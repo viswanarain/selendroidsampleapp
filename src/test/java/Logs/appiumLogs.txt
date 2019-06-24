@@ -1,0 +1,317 @@
+2019-04-17 15:01:30:706 [Appium] Welcome to Appium v1.10.0
+2019-04-17 15:01:30:707 [Appium] Non-default server args:
+2019-04-17 15:01:30:708 [Appium]   logFile: /Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp/src/test/java/Logs/appiumLogs.txt
+2019-04-17 15:01:30:708 [Appium]   localTimezone: true
+2019-04-17 15:01:30:738 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2019-04-17 15:01:33:537 [HTTP] --> GET /wd/hub/status
+2019-04-17 15:01:33:537 [HTTP] {}
+2019-04-17 15:01:33:539 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-04-17 15:01:33:540 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.10.0"}}
+2019-04-17 15:01:33:545 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2019-04-17 15:01:33:545 [HTTP] 
+2019-04-17 15:01:34:064 [HTTP] --> POST /wd/hub/session
+2019-04-17 15:01:34:064 [HTTP] {"desiredCapabilities":{"app":"/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk","noReset":"true","newCommandTimeout":"1800","platformVersion":"8.1","automationName":"UiAutomator2","autoGrantPermissions":"true","platformName":"Android","deviceName":"emulator"},"capabilities":{"alwaysMatch":{"appium:app":"/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk","appium:autoGrantPermissions":"true","appium:automationName":"UiAutomator2","appium:deviceName":"emulator","appium:newCommandTimeout":"1800","appium:noReset":"true","platformName":"android","appium:platformVersion":"8.1"},"firstMatch":[{}]}}
+2019-04-17 15:01:34:065 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk","noReset":"true","newCommandTimeout":"1800","platformVersion":"8.1","automationName":"UiAutomator2","autoGrantPermissions":"true","platformName":"Android","deviceName":"emulator"},null,{"alwaysMatch":{"appium:app":"/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk","appium:autoGrantPermissions":"true","appium:automationName":"UiAutomator2","appium:deviceName":"emulator","appium:newCommandTimeout":"1800","appium:noReset":"true","platformName":"android","appium:platformVersion":"8.1"},"firstMatch":[{}]}]
+2019-04-17 15:01:34:065 [BaseDriver] Event 'newSessionRequested' logged at 1555493494065 (15:01:34 GMT+0530 (India Standard Time))
+2019-04-17 15:01:34:070 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2019-04-17 15:01:34:072 [Appium] Creating new AndroidUiautomator2Driver (v1.33.0) session
+2019-04-17 15:01:34:073 [Appium] Capabilities:
+2019-04-17 15:01:34:073 [Appium]   platformName: android
+2019-04-17 15:01:34:073 [Appium]   app: /Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk
+2019-04-17 15:01:34:073 [Appium]   autoGrantPermissions: true
+2019-04-17 15:01:34:073 [Appium]   automationName: UiAutomator2
+2019-04-17 15:01:34:074 [Appium]   deviceName: emulator
+2019-04-17 15:01:34:074 [Appium]   newCommandTimeout: 1800
+2019-04-17 15:01:34:074 [Appium]   noReset: true
+2019-04-17 15:01:34:074 [Appium]   platformVersion: 8.1
+2019-04-17 15:01:34:076 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"app":"/Users/viswarajanla... were provided
+2019-04-17 15:01:34:077 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-04-17 15:01:34:078 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2019-04-17 15:01:34:080 [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2019-04-17 15:01:34:080 [BaseDriver] Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
+2019-04-17 15:01:34:081 [BaseDriver] Capability 'newCommandTimeout' changed from string ('1800') to integer (1800). This may cause unexpected behavior
+2019-04-17 15:01:34:084 [BaseDriver] Session created with session id: c64c2fef-1097-4ecc-909d-d4c41a943315
+2019-04-17 15:01:34:105 [BaseDriver] Using local app '/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk'
+2019-04-17 15:01:34:106 [UiAutomator2] Checking whether app is actually present
+2019-04-17 15:01:34:113 [ADB] Checking whether adb is present
+2019-04-17 15:01:34:119 [ADB] Found 2 'build-tools' folders under '/Users/viswarajanlakshminarayanan/Library/Android/sdk' (newest first):
+2019-04-17 15:01:34:119 [ADB]     /Users/viswarajanlakshminarayanan/Library/Android/sdk/build-tools/28.0.3
+2019-04-17 15:01:34:120 [ADB]     /Users/viswarajanlakshminarayanan/Library/Android/sdk/build-tools/27.0.3
+2019-04-17 15:01:34:120 [ADB] Using adb from /Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb
+2019-04-17 15:01:34:120 [AndroidDriver] Retrieving device list
+2019-04-17 15:01:34:121 [ADB] Trying to find a connected android device
+2019-04-17 15:01:34:121 [ADB] Getting connected devices...
+2019-04-17 15:01:34:131 [ADB] 1 device(s) connected
+2019-04-17 15:01:34:131 [AndroidDriver] Looking for a device with Android '8.1'
+2019-04-17 15:01:34:131 [ADB] Setting device id to emulator-5554
+2019-04-17 15:01:34:131 [ADB] Getting device platform version
+2019-04-17 15:01:34:133 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2019-04-17 15:01:34:160 [ADB] Current device property 'ro.build.version.release': 8.1.0
+2019-04-17 15:01:34:160 [AndroidDriver] Using device: emulator-5554
+2019-04-17 15:01:34:161 [ADB] Setting device id to emulator-5554
+2019-04-17 15:01:34:162 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2019-04-17 15:01:34:182 [ADB] Current device property 'ro.build.version.sdk': 27
+2019-04-17 15:01:34:183 [ADB] Device API level: 27
+2019-04-17 15:01:34:183 [AndroidDriver] Parsing package and activity from app manifest
+2019-04-17 15:01:34:185 [ADB] Using apkanalyzer from /Users/viswarajanlakshminarayanan/Library/Android/sdk/tools/bin/apkanalyzer
+2019-04-17 15:01:34:185 [ADB] Starting '/Users/viswarajanlakshminarayanan/Library/Android/sdk/tools/bin/apkanalyzer' with args ["-h","manifest","print","/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk"]
+2019-04-17 15:01:35:190 [ADB] Package name: 'io.selendroid.testapp'
+2019-04-17 15:01:35:191 [ADB] Main activity name: '.HomeScreenActivity'
+2019-04-17 15:01:35:191 [AndroidDriver] Parsed package and activity are: io.selendroid.testapp/.HomeScreenActivity
+2019-04-17 15:01:35:192 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+2019-04-17 15:01:35:200 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+2019-04-17 15:01:35:216 [AndroidDriver] Pushing settings apk to device...
+2019-04-17 15:01:35:217 [ADB] Getting install status for io.appium.settings
+2019-04-17 15:01:35:218 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2019-04-17 15:01:35:249 [ADB] 'io.appium.settings' is installed
+2019-04-17 15:01:35:249 [ADB] Getting package info for 'io.appium.settings'
+2019-04-17 15:01:35:250 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2019-04-17 15:01:35:289 [ADB] Checking whether aapt is present
+2019-04-17 15:01:35:290 [ADB] Using aapt from /Users/viswarajanlakshminarayanan/Library/Android/sdk/build-tools/28.0.3/aapt
+2019-04-17 15:01:35:303 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+2019-04-17 15:01:35:303 [ADB] There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2019-04-17 15:01:35:304 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-04-17 15:01:35:304 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2019-04-17 15:01:35:330 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f io\\.appium\\.settings'
+2019-04-17 15:01:35:372 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-04-17 15:01:35:373 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell appops set io.appium.settings android\:mock_location allow'
+2019-04-17 15:01:35:407 [Logcat] Starting logcat capture
+2019-04-17 15:01:35:430 [ADB] Getting install status for io.appium.uiautomator2.server
+2019-04-17 15:01:35:430 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2019-04-17 15:01:35:464 [ADB] 'io.appium.uiautomator2.server' is installed
+2019-04-17 15:01:35:464 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2019-04-17 15:01:35:464 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2019-04-17 15:01:35:508 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2019-04-17 15:01:35:508 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2019-04-17 15:01:35:509 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.4.0.apk
+2019-04-17 15:01:35:510 [ADB] Using apksigner from /Users/viswarajanlakshminarayanan/Library/Android/sdk/build-tools/28.0.3/apksigner
+2019-04-17 15:01:35:511 [ADB] Starting '/Users/viswarajanlakshminarayanan/Library/Android/sdk/build-tools/28.0.3/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.4.0.apk"]'
+2019-04-17 15:01:36:042 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-04-17 15:01:36:042 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-04-17 15:01:36:042 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-04-17 15:01:36:042 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-04-17 15:01:36:042 [ADB] 
+2019-04-17 15:01:36:043 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.4.0.apk' is already signed.
+2019-04-17 15:01:36:043 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2019-04-17 15:01:36:043 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2019-04-17 15:01:36:071 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2019-04-17 15:01:36:071 [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2019-04-17 15:01:36:071 [ADB] Starting '/Users/viswarajanlakshminarayanan/Library/Android/sdk/build-tools/28.0.3/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"]'
+2019-04-17 15:01:36:462 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-04-17 15:01:36:462 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-04-17 15:01:36:462 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-04-17 15:01:36:462 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-04-17 15:01:36:462 [ADB] 
+2019-04-17 15:01:36:462 [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2019-04-17 15:01:36:463 [UiAutomator2] Server packages are not going to be (re)installed
+2019-04-17 15:01:36:463 [UiAutomator2] Waiting up to 30000ms for services to be available
+2019-04-17 15:01:36:464 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+2019-04-17 15:01:36:807 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2019-04-17 15:01:36:808 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8203
+2019-04-17 15:01:36:808 [ADB] Forwarding system: 8203 to device: 6790
+2019-04-17 15:01:36:808 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp\:8203 tcp\:6790'
+2019-04-17 15:01:36:816 [ADB] Checking app cert for /Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk
+2019-04-17 15:01:36:817 [ADB] Starting '/Users/viswarajanlakshminarayanan/Library/Android/sdk/build-tools/28.0.3/apksigner' with args '["verify","--print-certs","/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk"]'
+2019-04-17 15:01:37:233 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-04-17 15:01:37:233 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-04-17 15:01:37:233 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-04-17 15:01:37:233 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-04-17 15:01:37:233 [ADB] 
+2019-04-17 15:01:37:234 [ADB] '/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk' is already signed.
+2019-04-17 15:01:37:234 [ADB] Getting install status for io.selendroid.testapp
+2019-04-17 15:01:37:234 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.selendroid.testapp'
+2019-04-17 15:01:37:267 [ADB] 'io.selendroid.testapp' is installed
+2019-04-17 15:01:37:267 [ADB] Getting package info for 'io.selendroid.testapp'
+2019-04-17 15:01:37:267 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.selendroid.testapp'
+2019-04-17 15:01:37:304 [ADB] The version name of the installed 'io.selendroid.testapp' is greater or equal to the application version name ('0.17.0' >= '0.17.0')
+2019-04-17 15:01:37:304 [ADB] There is no need to install/upgrade '/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk'
+2019-04-17 15:01:37:305 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2019-04-17 15:01:37:337 [UiAutomator2] The following obsolete sessions are still running: ["ce96e3b3-dff2-4b38-ac83-77354302e184"]
+2019-04-17 15:01:37:337 [UiAutomator2] Cleaning up the obsolete sessions
+2019-04-17 15:01:38:361 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2019-04-17 15:01:38:419 [UiAutomator2] Starting UIAutomator2 server 3.4.0
+2019-04-17 15:01:38:419 [UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.4.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2019-04-17 15:01:38:419 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2019-04-17 15:01:38:420 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2019-04-17 15:01:39:162 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2019-04-17 15:01:39:431 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-04-17 15:01:39:433 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8203/wd/hub/status] with no body
+2019-04-17 15:01:39:443 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-04-17 15:01:40:444 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-04-17 15:01:40:445 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8203/wd/hub/status] with no body
+2019-04-17 15:01:40:541 [WD Proxy] Got response with status 200: "{\"sessionId\":\"None\",\"status\":0,\"value\":\"Status Invoked\"}"
+2019-04-17 15:01:40:541 [WD Proxy] Determined that the downstream protocol for proxy is MJSONWP
+2019-04-17 15:01:40:542 [UiAutomator2] The initialization of the instrumentation process took 2123ms
+2019-04-17 15:01:40:542 [WD Proxy] Matched '/session' to command name 'createSession'
+2019-04-17 15:01:40:543 [WD Proxy] Proxying [POST /session] to [POST http://localhost:8203/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"emulator","newCommandTimeout":1800,"noReset":true,"platformVersion":"8.1"},"platformName":"android","app":"/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"emulator-5554","newCommandTimeout":1800,"noReset":true,"platformVersion":"8.1","deviceUDID":"emulator-5554","appPackage":"io.selendroid.testapp"}}
+2019-04-17 15:01:40:567 [WD Proxy] Got response with status 200: {"sessionId":"34d2de05-f37f-4961-b6f0-6bad45d737f2","status":0,"value":"Created Session"}
+2019-04-17 15:01:40:576 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/appium/device/info] with no body
+2019-04-17 15:01:40:599 [WD Proxy] Got response with status 200: "{\"sessionId\":\"34d2de05-f37f-4961-b6f0-6bad45d737f2\",\"status\":0,\"value\":{\"androidId\":\"421e4f03dc5deb4f\",\"manufacturer\":\"Google\",\"model\":\"Android SDK built for x86\",\"brand\":\"google\",\"apiVersion\":\"27\",\"platformVersion\":\"8.1.0\",\"carrierName\":\"Android\",\"realDisplaySize\":\"1440x2880\",\"displayDensity\":560}}"
+2019-04-17 15:01:40:600 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+2019-04-17 15:01:40:627 [AndroidDriver] Screen already unlocked, doing nothing
+2019-04-17 15:01:40:627 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'io.selendroid.testapp/.HomeScreenActivity'. Starting it ourselves
+2019-04-17 15:01:40:628 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n io.selendroid.testapp/.HomeScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-04-17 15:01:41:683 [ADB] Waiting up to 20000ms for activity matching pkg: 'io.selendroid.testapp' and activity: '.HomeScreenActivity' to be focused
+2019-04-17 15:01:41:684 [ADB] Possible activities, to be checked: 'io.selendroid.testapp.HomeScreenActivity'
+2019-04-17 15:01:41:687 [ADB] Getting focused package and activity
+2019-04-17 15:01:41:687 [ADB] Running '/Users/viswarajanlakshminarayanan/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window windows'
+2019-04-17 15:01:41:757 [ADB] Found package: 'io.selendroid.testapp' and fully qualified activity name : 'io.selendroid.testapp.HomeScreenActivity'
+2019-04-17 15:01:41:776 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/appium/device/pixel_ratio] with body: {}
+2019-04-17 15:01:41:828 [WD Proxy] Got response with status 200: "{\"sessionId\":\"34d2de05-f37f-4961-b6f0-6bad45d737f2\",\"status\":0,\"value\":3.5}"
+2019-04-17 15:01:41:832 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2019-04-17 15:01:41:832 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/appium/device/system_bars] with body: {}
+2019-04-17 15:01:41:890 [WD Proxy] Got response with status 200: "{\"sessionId\":\"34d2de05-f37f-4961-b6f0-6bad45d737f2\",\"status\":0,\"value\":{\"statusBar\":84}}"
+2019-04-17 15:01:41:891 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2019-04-17 15:01:41:892 [WD Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/window/current/size] with body: {}
+2019-04-17 15:01:41:953 [WD Proxy] Got response with status 200: "{\"sessionId\":\"34d2de05-f37f-4961-b6f0-6bad45d737f2\",\"status\":0,\"value\":{\"height\":2712,\"width\":1440}}"
+2019-04-17 15:01:41:955 [Appium] New AndroidUiautomator2Driver session created successfully, session c64c2fef-1097-4ecc-909d-d4c41a943315 added to master session list
+2019-04-17 15:01:41:956 [BaseDriver] Event 'newSessionStarted' logged at 1555493501955 (15:01:41 GMT+0530 (India Standard Time))
+2019-04-17 15:01:41:957 [W3C (c64c2fef)] Cached the protocol value 'W3C' for the new session c64c2fef-1097-4ecc-909d-d4c41a943315
+2019-04-17 15:01:41:958 [W3C (c64c2fef)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"emulator","newCommandTimeout":1800,"noReset":true,"platformVersion":"8.1"},"platformName":"android","app":"/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"emulator-5554","newCommandTimeout":1800,"noReset":true,"platformVersion":"8.1.0","deviceUDID":"emulator-5554","appPackage":"io.selendroid.testapp","deviceApiLevel":27,"deviceScreenSize":"1440x2880","deviceScreenDensity":560,"deviceModel":"Android S...
+2019-04-17 15:01:41:962 [HTTP] <-- POST /wd/hub/session 200 7897 ms - 1229
+2019-04-17 15:01:41:962 [HTTP] 
+2019-04-17 15:01:42:022 [HTTP] --> GET /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315
+2019-04-17 15:01:42:022 [HTTP] {}
+2019-04-17 15:01:42:024 [W3C (c64c2fef)] Calling AppiumDriver.getSession() with args: ["c64c2fef-1097-4ecc-909d-d4c41a943315"]
+2019-04-17 15:01:42:080 [UiAutomator2] Getting session details from server to mix in
+2019-04-17 15:01:42:081 [WD Proxy] Matched '/' to command name 'getSession'
+2019-04-17 15:01:42:082 [WD Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2] with body: {}
+2019-04-17 15:01:42:127 [WD Proxy] Got response with status 200: "{\"sessionId\":\"34d2de05-f37f-4961-b6f0-6bad45d737f2\",\"status\":0,\"value\":{}}"
+2019-04-17 15:01:42:130 [W3C (c64c2fef)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"emulator","newCommandTimeout":1800,"noReset":true,"platformVersion":"8.1"},"platformName":"android","app":"/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"emulator-5554","newCommandTimeout":1800,"noReset":true,"platformVersion":"8.1.0","deviceUDID":"emulator-5554","appPackage":"io.selendroid.testapp","deviceApiLevel":27,"deviceScreenSize":"1440x2880","deviceScreenDensity":560,"deviceModel":"Android SDK built for x86...
+2019-04-17 15:01:42:131 [HTTP] <-- GET /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315 200 110 ms - 1161
+2019-04-17 15:01:42:131 [HTTP] 
+2019-04-17 15:01:42:144 [HTTP] --> GET /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315
+2019-04-17 15:01:42:144 [HTTP] {}
+2019-04-17 15:01:42:145 [W3C (c64c2fef)] Calling AppiumDriver.getSession() with args: ["c64c2fef-1097-4ecc-909d-d4c41a943315"]
+2019-04-17 15:01:42:147 [UiAutomator2] Getting session details from server to mix in
+2019-04-17 15:01:42:148 [WD Proxy] Matched '/' to command name 'getSession'
+2019-04-17 15:01:42:148 [WD Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2] with body: {}
+2019-04-17 15:01:42:199 [WD Proxy] Got response with status 200: "{\"sessionId\":\"34d2de05-f37f-4961-b6f0-6bad45d737f2\",\"status\":0,\"value\":{}}"
+2019-04-17 15:01:42:201 [W3C (c64c2fef)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"emulator","newCommandTimeout":1800,"noReset":true,"platformVersion":"8.1"},"platformName":"android","app":"/Users/viswarajanlakshminarayanan/Documents/workspace1/selendroidsampleapp//src//test//java//utils//selendroid-test-app-0.17.0.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"emulator-5554","newCommandTimeout":1800,"noReset":true,"platformVersion":"8.1.0","deviceUDID":"emulator-5554","appPackage":"io.selendroid.testapp","deviceApiLevel":27,"deviceScreenSize":"1440x2880","deviceScreenDensity":560,"deviceModel":"Android SDK built for x86...
+2019-04-17 15:01:42:201 [HTTP] <-- GET /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315 200 57 ms - 1161
+2019-04-17 15:01:42:202 [HTTP] 
+2019-04-17 15:01:42:215 [HTTP] --> POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/timeouts
+2019-04-17 15:01:42:215 [HTTP] {"implicit":10000}
+2019-04-17 15:01:42:217 [W3C (c64c2fef)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"c64c2fef-1097-4ecc-909d-d4c41a943315"]
+2019-04-17 15:01:42:218 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2019-04-17 15:01:42:218 [BaseDriver] Set implicit wait to 10000ms
+2019-04-17 15:01:42:219 [W3C (c64c2fef)] Responding to client with driver.timeouts() result: null
+2019-04-17 15:01:42:220 [HTTP] <-- POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/timeouts 200 5 ms - 14
+2019-04-17 15:01:42:220 [HTTP] 
+2019-04-17 15:01:42:241 [HTTP] --> POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element
+2019-04-17 15:01:42:241 [HTTP] {"using":"id","value":"io.selendroid.testapp:id/buttonStartWebview"}
+2019-04-17 15:01:42:243 [W3C (c64c2fef)] Calling AppiumDriver.findElement() with args: ["id","io.selendroid.testapp:id/buttonStartWebview","c64c2fef-1097-4ecc-909d-d4c41a943315"]
+2019-04-17 15:01:42:244 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-17 15:01:42:244 [BaseDriver] Waiting up to 10000 ms for condition
+2019-04-17 15:01:42:245 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-04-17 15:01:42:245 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/element] with body: {"strategy":"id","selector":"io.selendroid.testapp:id/buttonStartWebview","context":"","multiple":false}
+2019-04-17 15:01:42:580 [WD Proxy] Got response with status 200: {"sessionId":"34d2de05-f37f-4961-b6f0-6bad45d737f2","status":0,"value":{"ELEMENT":"3364a683-e0d3-48ae-a1f9-2102c4e5dc6b"}}
+2019-04-17 15:01:42:581 [W3C (c64c2fef)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"3364a683-e0d3-48ae-a1f9-2102c4e5dc6b","ELEMENT":"3364a683-e0d3-48ae-a1f9-2102c4e5dc6b"}
+2019-04-17 15:01:42:582 [HTTP] <-- POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element 200 341 ms - 137
+2019-04-17 15:01:42:582 [HTTP] 
+2019-04-17 15:01:42:590 [HTTP] --> GET /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element/3364a683-e0d3-48ae-a1f9-2102c4e5dc6b/displayed
+2019-04-17 15:01:42:590 [HTTP] {}
+2019-04-17 15:01:42:591 [W3C (c64c2fef)] Calling AppiumDriver.elementDisplayed() with args: ["3364a683-e0d3-48ae-a1f9-2102c4e5dc6b","c64c2fef-1097-4ecc-909d-d4c41a943315"]
+2019-04-17 15:01:42:593 [WD Proxy] Matched '/element/3364a683-e0d3-48ae-a1f9-2102c4e5dc6b/attribute/displayed' to command name 'getAttribute'
+2019-04-17 15:01:42:593 [WD Proxy] Proxying [GET /element/3364a683-e0d3-48ae-a1f9-2102c4e5dc6b/attribute/displayed] to [GET http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/element/3364a683-e0d3-48ae-a1f9-2102c4e5dc6b/attribute/displayed] with body: {}
+2019-04-17 15:01:42:611 [WD Proxy] Got response with status 200: "{\"sessionId\":\"34d2de05-f37f-4961-b6f0-6bad45d737f2\",\"status\":0,\"value\":\"true\"}"
+2019-04-17 15:01:42:612 [W3C (c64c2fef)] Responding to client with driver.elementDisplayed() result: true
+2019-04-17 15:01:42:612 [HTTP] <-- GET /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element/3364a683-e0d3-48ae-a1f9-2102c4e5dc6b/displayed 200 22 ms - 14
+2019-04-17 15:01:42:612 [HTTP] 
+2019-04-17 15:01:45:625 [HTTP] --> POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element
+2019-04-17 15:01:45:625 [HTTP] {"using":"class name","value":"android.widget.EditText"}
+2019-04-17 15:01:45:626 [W3C (c64c2fef)] Calling AppiumDriver.findElement() with args: ["class name","android.widget.EditText","c64c2fef-1097-4ecc-909d-d4c41a943315"]
+2019-04-17 15:01:45:627 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-17 15:01:45:627 [BaseDriver] Waiting up to 10000 ms for condition
+2019-04-17 15:01:45:628 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-04-17 15:01:45:628 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/element] with body: {"strategy":"class name","selector":"android.widget.EditText","context":"","multiple":false}
+2019-04-17 15:01:45:669 [WD Proxy] Got response with status 200: {"sessionId":"34d2de05-f37f-4961-b6f0-6bad45d737f2","status":0,"value":{"ELEMENT":"59724b3a-1ce3-48f4-9f39-56912144f031"}}
+2019-04-17 15:01:45:669 [W3C (c64c2fef)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"59724b3a-1ce3-48f4-9f39-56912144f031","ELEMENT":"59724b3a-1ce3-48f4-9f39-56912144f031"}
+2019-04-17 15:01:45:670 [HTTP] <-- POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element 200 45 ms - 137
+2019-04-17 15:01:45:670 [HTTP] 
+2019-04-17 15:01:45:673 [HTTP] --> GET /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element/59724b3a-1ce3-48f4-9f39-56912144f031/displayed
+2019-04-17 15:01:45:673 [HTTP] {}
+2019-04-17 15:01:45:674 [W3C (c64c2fef)] Calling AppiumDriver.elementDisplayed() with args: ["59724b3a-1ce3-48f4-9f39-56912144f031","c64c2fef-1097-4ecc-909d-d4c41a943315"]
+2019-04-17 15:01:45:675 [WD Proxy] Matched '/element/59724b3a-1ce3-48f4-9f39-56912144f031/attribute/displayed' to command name 'getAttribute'
+2019-04-17 15:01:45:675 [WD Proxy] Proxying [GET /element/59724b3a-1ce3-48f4-9f39-56912144f031/attribute/displayed] to [GET http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/element/59724b3a-1ce3-48f4-9f39-56912144f031/attribute/displayed] with body: {}
+2019-04-17 15:01:45:693 [WD Proxy] Got response with status 200: "{\"sessionId\":\"34d2de05-f37f-4961-b6f0-6bad45d737f2\",\"status\":0,\"value\":\"true\"}"
+2019-04-17 15:01:45:694 [W3C (c64c2fef)] Responding to client with driver.elementDisplayed() result: true
+2019-04-17 15:01:45:694 [HTTP] <-- GET /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element/59724b3a-1ce3-48f4-9f39-56912144f031/displayed 200 21 ms - 14
+2019-04-17 15:01:45:695 [HTTP] 
+2019-04-17 15:01:45:699 [HTTP] --> POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element/59724b3a-1ce3-48f4-9f39-56912144f031/clear
+2019-04-17 15:01:45:700 [HTTP] {"id":"59724b3a-1ce3-48f4-9f39-56912144f031"}
+2019-04-17 15:01:45:700 [W3C (c64c2fef)] Calling AppiumDriver.clear() with args: ["59724b3a-1ce3-48f4-9f39-56912144f031","c64c2fef-1097-4ecc-909d-d4c41a943315"]
+2019-04-17 15:01:45:701 [WD Proxy] Matched '/element/59724b3a-1ce3-48f4-9f39-56912144f031/clear' to command name 'clear'
+2019-04-17 15:01:45:701 [WD Proxy] Proxying [POST /element/59724b3a-1ce3-48f4-9f39-56912144f031/clear] to [POST http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/element/59724b3a-1ce3-48f4-9f39-56912144f031/clear] with body: {"elementId":"59724b3a-1ce3-48f4-9f39-56912144f031"}
+2019-04-17 15:01:45:731 [WD Proxy] Got response with status 200: {"sessionId":"34d2de05-f37f-4961-b6f0-6bad45d737f2","status":0,"value":"Element Cleared"}
+2019-04-17 15:01:45:732 [W3C (c64c2fef)] Responding to client with driver.clear() result: "Element Cleared"
+2019-04-17 15:01:45:733 [HTTP] <-- POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element/59724b3a-1ce3-48f4-9f39-56912144f031/clear 200 33 ms - 27
+2019-04-17 15:01:45:733 [HTTP] 
+2019-04-17 15:01:46:744 [HTTP] --> POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element
+2019-04-17 15:01:46:745 [HTTP] {"using":"class name","value":"android.widget.EditText"}
+2019-04-17 15:01:46:745 [W3C (c64c2fef)] Calling AppiumDriver.findElement() with args: ["class name","android.widget.EditText","c64c2fef-1097-4ecc-909d-d4c41a943315"]
+2019-04-17 15:01:46:746 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-17 15:01:46:747 [BaseDriver] Waiting up to 10000 ms for condition
+2019-04-17 15:01:46:749 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-04-17 15:01:46:750 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/element] with body: {"strategy":"class name","selector":"android.widget.EditText","context":"","multiple":false}
+2019-04-17 15:01:46:820 [WD Proxy] Got response with status 200: {"sessionId":"34d2de05-f37f-4961-b6f0-6bad45d737f2","status":0,"value":{"ELEMENT":"4238673d-7e4a-45d8-acb0-dba4ae408319"}}
+2019-04-17 15:01:46:821 [W3C (c64c2fef)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4238673d-7e4a-45d8-acb0-dba4ae408319","ELEMENT":"4238673d-7e4a-45d8-acb0-dba4ae408319"}
+2019-04-17 15:01:46:822 [HTTP] <-- POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element 200 77 ms - 137
+2019-04-17 15:01:46:822 [HTTP] 
+2019-04-17 15:01:46:826 [HTTP] --> GET /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element/4238673d-7e4a-45d8-acb0-dba4ae408319/displayed
+2019-04-17 15:01:46:826 [HTTP] {}
+2019-04-17 15:01:46:826 [W3C (c64c2fef)] Calling AppiumDriver.elementDisplayed() with args: ["4238673d-7e4a-45d8-acb0-dba4ae408319","c64c2fef-1097-4ecc-909d-d4c41a943315"]
+2019-04-17 15:01:46:829 [WD Proxy] Matched '/element/4238673d-7e4a-45d8-acb0-dba4ae408319/attribute/displayed' to command name 'getAttribute'
+2019-04-17 15:01:46:829 [WD Proxy] Proxying [GET /element/4238673d-7e4a-45d8-acb0-dba4ae408319/attribute/displayed] to [GET http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/element/4238673d-7e4a-45d8-acb0-dba4ae408319/attribute/displayed] with body: {}
+2019-04-17 15:01:46:850 [WD Proxy] Got response with status 200: "{\"sessionId\":\"34d2de05-f37f-4961-b6f0-6bad45d737f2\",\"status\":0,\"value\":\"true\"}"
+2019-04-17 15:01:46:851 [W3C (c64c2fef)] Responding to client with driver.elementDisplayed() result: true
+2019-04-17 15:01:46:852 [HTTP] <-- GET /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element/4238673d-7e4a-45d8-acb0-dba4ae408319/displayed 200 26 ms - 14
+2019-04-17 15:01:46:852 [HTTP] 
+2019-04-17 15:01:46:861 [HTTP] --> POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element/4238673d-7e4a-45d8-acb0-dba4ae408319/value
+2019-04-17 15:01:46:864 [HTTP] {"id":"4238673d-7e4a-45d8-acb0-dba4ae408319","text":"samuels","value":["s","a","m","u","e","l","s"]}
+2019-04-17 15:01:46:864 [W3C (c64c2fef)] Calling AppiumDriver.setValue() with args: [["s","a","m","u","e","l","s"],"4238673d-7e4a-45d8-acb0-dba4ae408319","c64c2fef-1097-4ecc-909d-d4c41a943315"]
+2019-04-17 15:01:46:866 [WD Proxy] Matched '/element/4238673d-7e4a-45d8-acb0-dba4ae408319/value' to command name 'setValue'
+2019-04-17 15:01:46:866 [Protocol Converter] Added 'value' property ["s","a","m","u","e","l","s"] to 'setValue' request body
+2019-04-17 15:01:46:866 [WD Proxy] Proxying [POST /element/4238673d-7e4a-45d8-acb0-dba4ae408319/value] to [POST http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/element/4238673d-7e4a-45d8-acb0-dba4ae408319/value] with body: {"elementId":"4238673d-7e4a-45d8-acb0-dba4ae408319","text":"samuels","replace":false,"value":["s","a","m","u","e","l","s"]}
+2019-04-17 15:01:46:909 [WD Proxy] Got response with status 200: {"sessionId":"34d2de05-f37f-4961-b6f0-6bad45d737f2","status":0,"value":""}
+2019-04-17 15:01:46:910 [W3C (c64c2fef)] Responding to client with driver.setValue() result: ""
+2019-04-17 15:01:46:911 [HTTP] <-- POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/element/4238673d-7e4a-45d8-acb0-dba4ae408319/value 200 50 ms - 12
+2019-04-17 15:01:46:911 [HTTP] 
+2019-04-17 15:01:46:916 [HTTP] --> POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/elements
+2019-04-17 15:01:46:916 [HTTP] {"using":"class name","value":"android.widget.Spinner"}
+2019-04-17 15:01:46:917 [W3C (c64c2fef)] Calling AppiumDriver.findElements() with args: ["class name","android.widget.Spinner","c64c2fef-1097-4ecc-909d-d4c41a943315"]
+2019-04-17 15:01:46:918 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-04-17 15:01:46:918 [BaseDriver] Waiting up to 10000 ms for condition
+2019-04-17 15:01:46:918 [WD Proxy] Matched '/elements' to command name 'findElements'
+2019-04-17 15:01:46:919 [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/elements] with body: {"strategy":"class name","selector":"android.widget.Spinner","context":"","multiple":true}
+2019-04-17 15:01:47:012 [WD Proxy] Got response with status 200: {"sessionId":"34d2de05-f37f-4961-b6f0-6bad45d737f2","status":0,"value":[]}
+2019-04-17 15:01:47:012 [BaseDriver] Waited for 94 ms so far
+2019-04-17 15:01:47:516 [WD Proxy] Matched '/elements' to command name 'findElements'
+2019-04-17 15:01:47:517 [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/elements] with body: {"strategy":"class name","selector":"android.widget.Spinner","context":"","multiple":true}
+2019-04-17 15:01:47:548 [WD Proxy] Got response with status 200: {"sessionId":"34d2de05-f37f-4961-b6f0-6bad45d737f2","status":0,"value":[]}
+2019-04-17 15:01:47:549 [BaseDriver] Waited for 631 ms so far
+2019-04-17 15:01:48:057 [WD Proxy] Matched '/elements' to command name 'findElements'
+2019-04-17 15:01:48:058 [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/elements] with body: {"strategy":"class name","selector":"android.widget.Spinner","context":"","multiple":true}
+2019-04-17 15:01:48:088 [WD Proxy] Got response with status 200: {"sessionId":"34d2de05-f37f-4961-b6f0-6bad45d737f2","status":0,"value":[]}
+2019-04-17 15:01:48:088 [BaseDriver] Waited for 1170 ms so far
+2019-04-17 15:01:48:593 [WD Proxy] Matched '/elements' to command name 'findElements'
+2019-04-17 15:01:48:594 [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/elements] with body: {"strategy":"class name","selector":"android.widget.Spinner","context":"","multiple":true}
+2019-04-17 15:01:48:620 [WD Proxy] Got response with status 200: {"sessionId":"34d2de05-f37f-4961-b6f0-6bad45d737f2","status":0,"value":[]}
+2019-04-17 15:01:48:621 [BaseDriver] Waited for 1703 ms so far
+2019-04-17 15:01:49:125 [WD Proxy] Matched '/elements' to command name 'findElements'
+2019-04-17 15:01:49:125 [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/elements] with body: {"strategy":"class name","selector":"android.widget.Spinner","context":"","multiple":true}
+2019-04-17 15:01:49:154 [WD Proxy] Got response with status 200: {"sessionId":"34d2de05-f37f-4961-b6f0-6bad45d737f2","status":0,"value":[]}
+2019-04-17 15:01:49:154 [BaseDriver] Waited for 2236 ms so far
+2019-04-17 15:01:49:658 [WD Proxy] Matched '/elements' to command name 'findElements'
+2019-04-17 15:01:49:659 [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/elements] with body: {"strategy":"class name","selector":"android.widget.Spinner","context":"","multiple":true}
+2019-04-17 15:01:49:689 [WD Proxy] Got response with status 200: {"sessionId":"34d2de05-f37f-4961-b6f0-6bad45d737f2","status":0,"value":[]}
+2019-04-17 15:01:49:689 [BaseDriver] Waited for 2771 ms so far
+2019-04-17 15:01:50:195 [WD Proxy] Matched '/elements' to command name 'findElements'
+2019-04-17 15:01:50:196 [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/34d2de05-f37f-4961-b6f0-6bad45d737f2/elements] with body: {"strategy":"class name","selector":"android.widget.Spinner","context":"","multiple":true}
+2019-04-17 15:01:50:225 [WD Proxy] Got response with status 200: {"sessionId":"34d2de05-f37f-4961-b6f0-6bad45d737f2","status":0,"value":[]}
+2019-04-17 15:01:50:225 [BaseDriver] Waited for 3307 ms so far
+2019-04-17 15:01:50:270 [HTTP] <-- POST /wd/hub/session/c64c2fef-1097-4ecc-909d-d4c41a943315/elements - - ms - -
+2019-04-17 15:01:50:270 [HTTP] 
+2019-04-17 15:01:50:273 uncaughtException: write EPIPE
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:66:16)
