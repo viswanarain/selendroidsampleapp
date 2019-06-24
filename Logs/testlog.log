@@ -1,79 +1,70 @@
-2019-04-09 15:50:46,796 - setup.Base -INFO - Suite started
-2019-04-09 15:51:00,229 - setup.Base -INFO - ### TC 1 - WEB VIEW VALIDATION ###
-2019-04-09 15:51:00,770 - setup.Base -INFO - chrome button is displayed
-2019-04-09 15:51:00,804 - setup.Base -INFO - chrome button click is successful
-2019-04-09 15:51:05,251 - setup.Base -INFO - Name Input box is displayed
-2019-04-09 15:51:06,446 - setup.Base -INFO - Name Input box is displayed
-2019-04-09 15:51:06,487 - setup.Base -INFO - samuels is entered
-2019-04-09 15:51:07,094 - setup.Base -INFO - car drop down is displayed
-2019-04-09 15:51:08,372 - setup.Base -INFO - car selection list is displayed
-2019-04-09 15:51:09,170 - setup.Base -INFO - audi is selected
-2019-04-09 15:51:11,837 - setup.Base -INFO - submit button is displayed
-2019-04-09 15:51:13,037 - setup.Base -INFO - header text is displayed
-2019-04-09 15:51:13,141 - setup.Base -INFO - header text is displayed
-2019-04-09 15:51:13,160 - setup.Base -INFO - Input name and car name is matching
-2019-04-09 15:51:13,245 - setup.Base -INFO - ### TC 2 - CLICK SOURCE VALIDATION ###
-2019-04-09 15:51:14,224 - setup.Base -INFO - chrome button is displayed
-2019-04-09 15:51:14,253 - setup.Base -INFO - chrome button click is successful
-2019-04-09 15:51:16,671 - setup.Base -INFO - spinner drop down is displayed
-2019-04-09 15:51:18,597 - setup.Base -INFO - web view list is displayed
-2019-04-09 15:51:25,187 - setup.Base -INFO - Click Source is selected
-2019-04-09 15:51:25,336 - setup.Base -INFO - Target link is displayed
-2019-04-09 15:51:26,433 - setup.Base -INFO - header text is displayed
-2019-04-09 15:51:27,525 - setup.Base -INFO - ### TC 3 - TEXT VALIDATION ###
-2019-04-09 15:51:28,416 - setup.Base -INFO - Display text view box is displayed
-2019-04-09 15:51:29,033 - setup.Base -INFO - Display of text is displayed
-2019-04-09 15:51:29,210 - setup.Base -INFO - Display of text is displayed
-2019-04-09 15:51:29,231 - setup.Base -INFO - Text validation is successful
-2019-04-09 15:51:29,232 - setup.Base -INFO - ### TC 4 - TOUCH ACTION GESTURES VALIDATION ###
-2019-04-09 15:51:29,309 - setup.Base -INFO - Touch Action button is displayed
-2019-04-09 15:51:29,338 - setup.Base -INFO - Touch action button click is successful
-2019-04-09 15:51:31,408 - setup.Base -INFO - Gesture Text is displayed
-2019-04-09 15:51:32,404 - setup.Base -INFO - Gesture Text is displayed
-2019-04-09 15:51:32,422 - setup.Base -INFO - Single Tap done
-2019-04-09 15:51:33,610 - setup.Base -INFO - Touch Action button is displayed
-2019-04-09 15:51:33,642 - setup.Base -INFO - Touch action button click is successful
-2019-04-09 15:51:35,648 - setup.Base -INFO - Gesture Text is displayed
-2019-04-09 15:51:37,506 - setup.Base -INFO - Gesture Text is displayed
-2019-04-09 15:51:37,532 - setup.Base -INFO - Long press done
-2019-04-09 15:51:42,756 - setup.Base -INFO - Suite completed
-2019-04-09 16:32:56,470 - setup.Base -INFO - Suite started
-2019-04-10 14:27:55,058 - setup.Base -INFO - Suite started
-2019-04-10 14:28:11,433 - setup.Base -INFO - ### TC 1 - WEB VIEW VALIDATION ###
-2019-04-10 14:28:11,623 - setup.Base -INFO - chrome button is displayed
-2019-04-10 14:28:11,666 - setup.Base -INFO - chrome button click is successful
-2019-04-10 14:28:15,496 - setup.Base -INFO - Name Input box is displayed
-2019-04-10 14:28:16,685 - setup.Base -INFO - Name Input box is displayed
-2019-04-10 14:28:16,734 - setup.Base -INFO - samuels is entered
-2019-04-10 14:28:17,331 - setup.Base -INFO - car drop down is displayed
-2019-04-10 14:28:18,569 - setup.Base -INFO - car selection list is displayed
-2019-04-10 14:28:19,371 - setup.Base -INFO - audi is selected
-2019-04-10 14:28:23,940 - setup.Base -INFO - submit button is displayed
-2019-04-10 14:28:26,020 - setup.Base -INFO - header text is displayed
-2019-04-10 14:28:26,152 - setup.Base -INFO - header text is displayed
-2019-04-10 14:28:26,172 - setup.Base -INFO - Input name and car name is matching
-2019-04-10 14:28:26,378 - setup.Base -INFO - ### TC 2 - CLICK SOURCE VALIDATION ###
-2019-04-10 14:28:27,309 - setup.Base -INFO - chrome button is displayed
-2019-04-10 14:28:27,347 - setup.Base -INFO - chrome button click is successful
-2019-04-10 14:28:30,189 - setup.Base -INFO - spinner drop down is displayed
-2019-04-10 14:28:31,735 - setup.Base -INFO - web view list is displayed
-2019-04-10 14:28:38,360 - setup.Base -INFO - Click Source is selected
-2019-04-10 14:28:38,498 - setup.Base -INFO - Target link is displayed
-2019-04-10 14:28:39,509 - setup.Base -INFO - header text is displayed
-2019-04-10 14:28:40,613 - setup.Base -INFO - ### TC 3 - TEXT VALIDATION ###
-2019-04-10 14:28:41,494 - setup.Base -INFO - Display text view box is displayed
-2019-04-10 14:28:42,142 - setup.Base -INFO - Display of text is displayed
-2019-04-10 14:28:42,291 - setup.Base -INFO - Display of text is displayed
-2019-04-10 14:28:42,311 - setup.Base -INFO - Text validation is successful
-2019-04-10 14:28:42,312 - setup.Base -INFO - ### TC 4 - TOUCH ACTION GESTURES VALIDATION ###
-2019-04-10 14:28:42,407 - setup.Base -INFO - Touch Action button is displayed
-2019-04-10 14:28:42,446 - setup.Base -INFO - Touch action button click is successful
-2019-04-10 14:28:45,746 - setup.Base -INFO - Gesture Text is displayed
-2019-04-10 14:28:46,746 - setup.Base -INFO - Gesture Text is displayed
-2019-04-10 14:28:46,775 - setup.Base -INFO - Single Tap done
-2019-04-10 14:28:47,978 - setup.Base -INFO - Touch Action button is displayed
-2019-04-10 14:28:48,007 - setup.Base -INFO - Touch action button click is successful
-2019-04-10 14:28:53,276 - setup.Base -INFO - Gesture Text is displayed
-2019-04-10 14:28:59,254 - setup.Base -INFO - Gesture Text is displayed
-2019-04-10 14:28:59,293 - setup.Base -INFO - Long press done
-2019-04-10 14:29:04,538 - setup.Base -INFO - Suite completed
+2019-04-17 12:15:12,867 - setup.Base -INFO - Suite started
+2019-04-17 12:21:10,892 - setup.Base -INFO - Suite started
+2019-04-17 12:24:19,341 - setup.Base -INFO - Suite started
+2019-04-17 12:24:39,539 - setup.Base -INFO - ### TC 1 - WEB VIEW VALIDATION ###
+2019-04-17 12:24:39,809 - setup.Base -INFO - chrome button is displayed
+2019-04-17 12:24:39,849 - setup.Base -INFO - chrome button click is successful
+2019-04-17 12:24:44,283 - setup.Base -INFO - Name Input box is displayed
+2019-04-17 12:24:45,380 - setup.Base -INFO - Name Input box is displayed
+2019-04-17 12:24:45,417 - setup.Base -INFO - samuels is entered
+2019-04-17 12:24:45,967 - setup.Base -INFO - car drop down is displayed
+2019-04-17 12:24:47,234 - setup.Base -INFO - car selection list is displayed
+2019-04-17 12:24:48,027 - setup.Base -INFO - audi is selected
+2019-04-17 12:24:50,123 - setup.Base -INFO - submit button is displayed
+2019-04-17 12:24:51,073 - setup.Base -INFO - header text is displayed
+2019-04-17 12:24:51,142 - setup.Base -INFO - header text is displayed
+2019-04-17 12:24:51,160 - setup.Base -INFO - Input name and car name is matching
+2019-04-17 12:24:51,223 - setup.Base -INFO - ### TC 2 - CLICK SOURCE VALIDATION ###
+2019-04-17 12:24:52,118 - setup.Base -INFO - chrome button is displayed
+2019-04-17 12:24:52,145 - setup.Base -INFO - chrome button click is successful
+2019-04-17 12:24:54,184 - setup.Base -INFO - spinner drop down is displayed
+2019-04-17 12:24:55,732 - setup.Base -INFO - web view list is displayed
+2019-04-17 12:25:01,267 - setup.Base -INFO - Click Source is selected
+2019-04-17 12:25:01,705 - setup.Base -INFO - Target link is displayed
+2019-04-17 12:25:02,819 - setup.Base -INFO - header text is displayed
+2019-04-17 12:25:03,921 - setup.Base -INFO - ### TC 3 - TEXT VALIDATION ###
+2019-04-17 12:25:05,321 - setup.Base -INFO - Display text view box is displayed
+2019-04-17 12:25:05,939 - setup.Base -INFO - Display of text is displayed
+2019-04-17 12:25:05,995 - setup.Base -INFO - Display of text is displayed
+2019-04-17 12:25:06,012 - setup.Base -INFO - Text validation is successful
+2019-04-17 12:25:06,014 - setup.Base -INFO - ### TC 4 - TOUCH ACTION GESTURES VALIDATION ###
+2019-04-17 12:25:06,118 - setup.Base -INFO - Touch Action button is displayed
+2019-04-17 12:25:06,150 - setup.Base -INFO - Touch action button click is successful
+2019-04-17 12:25:08,105 - setup.Base -INFO - Gesture Text is displayed
+2019-04-17 12:25:09,094 - setup.Base -INFO - Gesture Text is displayed
+2019-04-17 12:25:09,111 - setup.Base -INFO - Single Tap done
+2019-04-17 12:25:10,205 - setup.Base -INFO - Touch Action button is displayed
+2019-04-17 12:25:10,229 - setup.Base -INFO - Touch action button click is successful
+2019-04-17 12:25:12,152 - setup.Base -INFO - Gesture Text is displayed
+2019-04-17 12:25:13,997 - setup.Base -INFO - Gesture Text is displayed
+2019-04-17 12:25:14,011 - setup.Base -INFO - Long press done
+2019-04-17 12:25:19,231 - setup.Base -INFO - Suite completed
+2019-04-17 14:52:13,141 - setup.Base -INFO - Suite started
+2019-04-17 14:52:52,632 - setup.Base -INFO - Suite started
+2019-04-17 14:53:00,654 - setup.Base -INFO - ### TC 1 - WEB VIEW VALIDATION ###
+2019-04-17 14:53:01,630 - setup.Base -INFO - chrome button is displayed
+2019-04-17 14:53:01,634 - setup.Base -INFO - chrome button click is not successful
+2019-04-17 14:53:04,709 - setup.Base -INFO - Name Input box is displayed
+2019-04-17 14:53:05,870 - setup.Base -INFO - Name Input box is displayed
+2019-04-17 14:53:05,927 - setup.Base -INFO - samuels is entered
+2019-04-17 14:54:39,100 - setup.Base -INFO - Suite started
+2019-04-17 14:54:48,760 - setup.Base -INFO - ### TC 1 - WEB VIEW VALIDATION ###
+2019-04-17 14:54:49,198 - setup.Base -INFO - chrome button is displayed
+2019-04-17 14:54:49,201 - setup.Base -INFO - chrome button click is not successful
+2019-04-17 14:54:52,298 - setup.Base -INFO - Name Input box is displayed
+2019-04-17 14:54:53,469 - setup.Base -INFO - Name Input box is displayed
+2019-04-17 14:54:53,524 - setup.Base -INFO - samuels is entered
+2019-04-17 14:59:53,933 - setup.Base -INFO - Suite started
+2019-04-17 15:00:02,920 - setup.Base -INFO - ### TC 1 - WEB VIEW VALIDATION ###
+2019-04-17 15:00:03,402 - setup.Base -INFO - chrome button is displayed
+2019-04-17 15:00:03,406 - setup.Base -INFO - chrome button click is not successful
+2019-04-17 15:00:06,484 - setup.Base -INFO - Name Input box is displayed
+2019-04-17 15:00:07,643 - setup.Base -INFO - Name Input box is displayed
+2019-04-17 15:00:07,694 - setup.Base -INFO - samuels is entered
+2019-04-17 15:01:33,578 - setup.Base -INFO - Suite started
+2019-04-17 15:01:42,235 - setup.Base -INFO - ### TC 1 - WEB VIEW VALIDATION ###
+2019-04-17 15:01:42,613 - setup.Base -INFO - chrome button is displayed
+2019-04-17 15:01:42,616 - setup.Base -INFO - chrome button click is not successful
+2019-04-17 15:01:45,696 - setup.Base -INFO - Name Input box is displayed
+2019-04-17 15:01:46,853 - setup.Base -INFO - Name Input box is displayed
+2019-04-17 15:01:46,912 - setup.Base -INFO - samuels is entered
