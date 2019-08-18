@@ -17,13 +17,17 @@ public class HomePageModule extends Base {
 
 	HomePageElements hm = new HomePageElements();
 	CommonUtils util = new CommonUtils();
+	
+	/*
+	 * The ad;alda;dla;dald;alda;daldal;ad
+	 */
 
 	public void chromeButtonClick() throws Exception {
 		
 		WebElement element = hm.chromeButton(driver);
 		
 			hm.chromeButton(driver).click();
-			log.info("chrome button click is successful");
+			log.info("chrome button click is successfully clicked");
 	}
 
 	public void validateTextBox() throws Exception {
