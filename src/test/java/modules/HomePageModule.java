@@ -18,10 +18,11 @@ public class HomePageModule extends Base {
 	HomePageElements hm = new HomePageElements();
 	CommonUtils util = new CommonUtils();
 	
-	/*
-	 * The ad;alda;dla;dald;alda;daldal;ad
-	 */
+	
 
+	/*
+	 * This method is for performing click operation in chrome
+	 */
 	public void chromeButtonClick() throws Exception {
 		
 		WebElement element = hm.chromeButton(driver);
