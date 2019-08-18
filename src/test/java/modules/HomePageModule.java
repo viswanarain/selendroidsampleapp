@@ -18,12 +18,17 @@ public class HomePageModule extends Base {
 	HomePageElements hm = new HomePageElements();
 	CommonUtils util = new CommonUtils();
 
+	/*
+	 * This method is for performing click operation in chrome
+	 */
 	public void chromeButtonClick() throws Exception {
 		
 		WebElement element = hm.chromeButton(driver);
 		
 			hm.chromeButton(driver).click();
 			log.info("chrome button click is successful");
+			
+			
 	}
 
 	public void validateTextBox() throws Exception {
